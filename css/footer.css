@@ -1,0 +1,17 @@
+.rodape {
+    margin: 0 0 2em 5em;
+}
+
+.rodape__lista {
+    display: flex;
+    list-style-type: none;
+    height: 10vh;
+    align-items: flex-end;
+}
+
+.rodape__lista-link {
+    color: var(--branco);
+    font-size: 0.875em;
+    margin-right: 4em;
+    text-decoration: none;
+}

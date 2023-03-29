@@ -1,0 +1,31 @@
+.cabecalho {
+    margin-bottom: 5em;
+}
+
+.container {
+    display: grid;
+    background-image: url("../img/Logo.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 5em;
+    grid-template-columns: 1fr 1fr;
+    height: 15vh;
+    margin: 3em 6em;
+}
+
+.cabecalho__lista {
+    align-content: flex-start;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-left: 2.2em;
+}
+
+.lista-link {
+    color: var(--branco);
+    font-size: 1.75em;
+    font-weight: 400;
+    padding-right: 1em;
+    text-decoration: none;
+}

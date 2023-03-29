@@ -1,0 +1,48 @@
+.background {
+    background-image: url("../img/Background\ image.png");
+    background-position-y: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.principal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    margin: 0 0 0 5em;
+    text-align: center;
+    width: 60%;
+}
+
+.principal__titulo {
+    color: var(--branco);
+    font-size: 6.875em;
+    font-weight: 400;
+    margin: 0 0 0 0;
+}
+
+.principal__texto {
+    color: var(--branco);
+    font-size: 2em;
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.principal__botao {
+    color: var(--branco);
+    background-color: var(--cor-do-botao);
+    border-radius: 20px;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0 0;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    width: 25%;
+}
+
+.principal__botao:hover {
+    background-color: var(--cor-animacao);
+    transition-duration: 800ms;
+}

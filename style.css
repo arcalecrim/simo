@@ -1,0 +1,22 @@
+@import url("css/header.css");
+@import url("css/footer.css");
+@import url("css/landing.css");
+@import url("css/discover.css");
+@import url("css/singin.css");
+
+:root {
+    --fonte: "Poppins";
+    --cor-de-fundo: #DBAC74;
+    --cor-do-botao: #5E659D;
+    --cor-animacao: #a50f28;
+    --branco: #FFFFFF;
+    --amarelo: #dba674;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}

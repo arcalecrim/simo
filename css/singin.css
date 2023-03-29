@@ -1,0 +1,59 @@
+.background__alt {
+    background-image: url("../img/Background\ Image\ 2.png");
+    background-position-y: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.singin {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    margin: 0 0 0 5em;
+    text-align: center;
+    width: 60%;
+}
+
+.form {
+    align-items: center;
+    color: var(--branco);
+    background-color: var(--cor-do-botao);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+    justify-content: space-between;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+    width: 50%;
+}
+
+.input__padrao {
+    border: 1px solid var(--amarelo);
+    border-radius: 10px;
+    height: 3em;
+    margin: 2em 2em;
+    padding: 0.5em 0.5em;
+    width: 40%;
+}
+
+.singin__botao {
+    align-items: center;
+    color: var(--branco);
+    background-color: var(--cor-do-botao);
+    border-radius: 20px;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0 0;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    width: 25%;
+}
+
+.singin__botao:hover {
+    background-color: var(--cor-animacao);
+    transition-duration: 800ms;
+}

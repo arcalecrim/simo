@@ -1,0 +1,51 @@
+.background__tiles {
+    background-image: url("../img/Music\ titles.png");
+    background-position: right;
+    background-repeat: repeat-y;
+    background-size: 30%;
+}
+
+.discover {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    margin: 3em 5em 5em 5em;
+    text-align: center;
+    width: 60%;
+}
+
+.discover__titulo {
+    color: var(--branco);
+    font-size: 5em;
+    font-weight: 400;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.discover__texto {
+    color: var(--branco);
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 2em 0;
+}
+
+.discover__botoes {
+    margin: 2em 0;
+}
+
+.discover__botao {
+    color: var(--branco);
+    background-color: var(--cor-do-botao);
+    border-radius: 20px;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0 1em;
+    padding: 0.6em 1em;
+    text-decoration: none;
+    width: 25%;
+}
+
+.discover__botao:hover {
+    background-color: var(--cor-animacao);
+    transition-duration: 800ms;
+}
